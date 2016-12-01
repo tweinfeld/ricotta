@@ -1,0 +1,11 @@
+{
+  "name": "ricotta",
+  "version": "1.0.0",
+  "description": "Extend source objects according to a given fieldmap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tal Weinfeld <talw@webwise.co.il>",
+  "license": "ISC"
+}
