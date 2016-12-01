@@ -1,6 +1,6 @@
 {
   "name": "ricotta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend source objects according to a given fieldmap",
   "main": "index.js",
   "scripts": {

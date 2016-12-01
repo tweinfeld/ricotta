@@ -19,8 +19,8 @@ This library is 100% ES5 compatible, no deps.
 
     var ricotta = require('ricotta');
 
-    // extendByMapFactory receives a field map, returns (sourceObj, extensionObj)=>sourceObj
-    var extender = ricotta.extendByMapFactory({
+    // ricotta receives a field map, returns (sourceObj, extensionObj)=>sourceObj
+    var extender = ricotta({
         "MY_ENV_KEY_1": "key1",
         "MY_ENV_KEY_2_1": "key2.key1",
         "MY_ENV_KEY_3": "key2.key3",

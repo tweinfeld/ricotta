@@ -12,7 +12,4 @@ var extendByMapFactory = function(fieldMap) {
     }
 };
 
-module.exports = {
-    resolvePath: resolvePath,
-    extendByMapFactory: extendByMapFactory
-};
+module.exports = extendByMapFactory;
